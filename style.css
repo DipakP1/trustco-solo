@@ -1,0 +1,50 @@
+/* Global Box Sizing */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Styling */
+body {
+  font-family: "Arial", sans-serif; /* Primary font */
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Font Sizes */
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+p {
+  font-size: 1rem;
+}
+
+/* Colors using Variables */
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --background-color: #f9f9f9;
+}
+
+/* Links */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Spacing */
+section {
+  padding: 40px 20px;
+}
